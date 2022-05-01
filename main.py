@@ -51,8 +51,7 @@ if __name__== "__main__":
             print ("Valor invalido")
             op=int(input("Seleccione la opcion deseada\n 1-Ingresar el nombre y email de un usuario\n 2-Modificar contraseña\n 3-Leer archivo\n 4-Salir\n"))
             pan.manejador(op)
-        elif (op==5)
-            os.
+        elif (op==5):
             print ("Sayonara")
 
 
