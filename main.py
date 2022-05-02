@@ -43,16 +43,14 @@ if __name__== "__main__":
     test()
     pan=menu()
     op=int(input("Seleccione la opcion deseada\n 1-Ingresar el nombre y email de un usuario\n 2-Modificar contraseña\n 3-Leer archivo\n 4-Salir\n"))
-    while (op<5 or op>0):
+    while (op<4 or op>0 and op!=4):
         pan.manejador(op)
         op=int(input("Seleccione la opcion deseada\n 1-Ingresar el nombre y email de un usuario\n 2-Modificar contraseña\n 3-Leer archivo\n 4-Salir\n"))
 
-        if(op>5 or op<=0):
+        if(op>4 or op<=0):
             print ("Valor invalido")
             op=int(input("Seleccione la opcion deseada\n 1-Ingresar el nombre y email de un usuario\n 2-Modificar contraseña\n 3-Leer archivo\n 4-Salir\n"))
             pan.manejador(op)
-        elif (op==5):
-            print ("Sayonara")
-
+    print ("Adios/ Sayonara / Chiao /Good bye/ Arrivederci/ Au revour/ Aloha\n")
 
 

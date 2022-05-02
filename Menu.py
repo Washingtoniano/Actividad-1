@@ -17,8 +17,6 @@ class menu:
             self.opcion2 ()
         elif (op==3):
             self.opcion3 ()
-        elif (op==4):
-            input()
     def opcion1(self):
         nomb=input ("Ingrese su nombre:\n")
         usuar=input("Ingrese su usario:\n")
@@ -41,6 +39,7 @@ class menu:
             else:
                 self.__Em=email(Fila[0], Fila[1], Fila[2], Fila[3])
                 print(self.__Em.retornaEmail())
+
 
 
 
